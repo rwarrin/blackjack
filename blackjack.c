@@ -34,7 +34,6 @@ int main(void) {
     srand(time(NULL));
 
     // declare some variables for our use
-    int tempCard = 0; 
     int score = 0; 
     int answer = 1;
 
@@ -45,7 +44,6 @@ int main(void) {
     int hand[kHandSize];
     InitializeHand(hand, kHandSize);
 
-    // test the AIPlayTurn function
     // create and initialize the AI hand
     int AIHand[kHandSize];
     InitializeHand(AIHand, kHandSize);
